@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/tan_background"
+    android:minHeight="@dimen/list_item_height"
+    android:orientation="horizontal"
+    android:padding="0.5dp">
+
+    <ImageView
+        android:id="@+id/list_item_icon"
+        android:layout_width="@dimen/list_item_height"
+        android:layout_height="@dimen/list_item_height"
+        android:src="@drawable/urduimg" />
+
+    <LinearLayout
+        android:id="@+id/text_text"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/list_item_icon"
+        android:background="@color/category_numbers"
+        android:orientation="vertical"
+        android:paddingLeft="16dp">
+
+
+        <TextView
+            android:id="@+id/Urdu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:paddingLeft="16dp"
+            android:paddingTop="16dp"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            tools:text="AIk" />
+
+        <TextView
+            android:id="@+id/English"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:paddingLeft="16dp"
+            android:paddingTop="5dp"
+            android:textColor="@android:color/white"
+            tools:text="One" />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/ic_play_arrow_white_24dp" />
+</RelativeLayout>
+

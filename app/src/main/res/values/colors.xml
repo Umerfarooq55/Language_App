@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--primary color of the app shown in ap bar-->
+    <color name="colorPrimary">#004D40</color>
+    <!--primary darl color of the app show in status bar-->
+    <color name="colorPrimaryDark">#004D40</color>
+    <!--background color of the app-->
+    <color name="tan_background">#FFF7DA</color>
+    <!--background color dor number category-->
+    <color name="category_numbers">#4CAF50</color>
+    <color name="category_family">#8BC34A</color>
+    <color name="category_color">#009688</color>
+    <color name="category_Phrases">#00BFA5</color>
+
+</resources>
